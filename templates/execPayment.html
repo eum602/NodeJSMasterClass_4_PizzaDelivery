@@ -1,0 +1,13 @@
+<h1>Payment</h1>
+<h2>You are at the final step, please confirm your order </h2>
+<div class="formWrapper">
+    <form id= "execPayment" action="/orders/payment/confirmed" method="POST">
+        <div class="formError"></div>
+        <div class="formSuccess">Your payment has been successfully submitted, please check your email</div>
+        <div class="inputWrapper ctaWrapper">
+            <script src="https://checkout.stripe.com/checkout.js"></script>
+            <button id="paymentData" class="cta blue" >Purchase</button>            
+        </div>
+    </form>
+
+</div>
