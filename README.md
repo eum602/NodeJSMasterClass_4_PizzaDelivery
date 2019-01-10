@@ -15,25 +15,25 @@ NODE_DEBUG=server NODE_ENV=staging node index.js
 -----------------------------------------------------------------------------------------------------------------------------
 
 
-exit                                               Kill the CLI (and the rest of the application)
+exit :                                              Kill the CLI (and the rest of the application)
 
-man                                                Show this help page
+man   :                                             Show this help page
 
-help                                               Alias of the man command
+help   :                                            Alias of the man command
 
-stats                                              Get statistics on the underliying operating system and resource utilization
+stats   :                                           Get statistics on the underliying operating system and resource utilization :
 
-list users                                         Show a list of all the registered (undeleted) users in a system
+list users   :                                      Show a list of all the registered (undeleted) users in a system
 
-more user info --{email}                           show details of a specific user
+more user info --{email} :                          show details of a specific user
 
-list menu items                                    Show all the items in the pizza delivery app
+list menu items :                                   Show all the items in the pizza delivery app
 
-list recent orders                                 Show a list of all the recent orders made within de past 24 hours
+list recent orders :                                Show a list of all the recent orders made within de past 24 hours
 
-more order info --{orderId}                        More info about a specific order
+more order info --{orderId} :                       More info about a specific order
 
-list new users                                     Show a list of all the recent visitors who has just joined within de past 24 hours
+list new users :                                    Show a list of all the recent visitors who has just joined within de past 24 hours
 
 
 -----------------------------------------------------------------------------------------------------------------------------
